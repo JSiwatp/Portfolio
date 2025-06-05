@@ -21,7 +21,7 @@ const Hero = () => {
 
       <div className='hero-layout'>
         {/* LEFT: Hero Content */}
-        <header className='flex flex-col justify-center w-full xl:w-1/2'>
+        <header className='flex flex-col justify-center w-full xl:w-1/2 items-center md:items-start text-center md:text-left'>
           <div className='flex flex-col gap-7'>
             <div className='hero-text'>
               <h1>
@@ -50,9 +50,9 @@ const Hero = () => {
 
             <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
               I'm looking for a full-time job
-              {/*               as Front-end, */}
+              {/* as Front-end, */}
               <br />
-              {/*               Back-end and Fullstack. */}
+              {/* Back-end and Fullstack. */}
             </p>
 
             <Button
