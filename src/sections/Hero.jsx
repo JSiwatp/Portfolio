@@ -21,7 +21,7 @@ const Hero = () => {
 
       <div className='hero-layout'>
         {/* LEFT: Hero Content */}
-        <header className='flex flex-col justify-center md:w-full w-screen md:px-20 px-5'>
+        <header className='flex flex-col justify-center w-full xl:w-1/2'>
           <div className='flex flex-col gap-7'>
             <div className='hero-text'>
               <h1>
@@ -49,10 +49,10 @@ const Hero = () => {
             </div>
 
             <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
-              I'm looking for a full-time job 
-{/*               as Front-end, */}
-              <br/>
-{/*               Back-end and Fullstack. */}
+              I'm looking for a full-time job
+              {/*               as Front-end, */}
+              <br />
+              {/*               Back-end and Fullstack. */}
             </p>
 
             <Button
@@ -63,9 +63,15 @@ const Hero = () => {
           </div>
         </header>
         {/* RIGHT: 3D Model or Visual */}
-        <figure>
-          <div className='hero-3d-layout'>
-            <HeroExperience />
+        <figure className='w-full xl:w-1/2 flex justify-center items-center mt-10 xl:mt-0'>
+          {/* <div className='hero-3d-layout'> */}
+          <div className='w-full max-w-2xl'>
+            {/* <HeroExperience /> */}
+            <img
+              src='/images/heroImgv2.png'
+              alt='Hero Image'
+              className='w-full h-auto object-contain'
+            />
           </div>
         </figure>
       </div>
