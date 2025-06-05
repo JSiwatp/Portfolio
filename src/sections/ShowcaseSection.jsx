@@ -60,8 +60,8 @@ const ShowcaseSection = () => {
             <div className='text-content'>
               <h2>Reading Studio</h2>
               <p className='text-white-50 md:text-xl'>
-                "A web application built with React, Node.js, Bootstrap, and
-                phpMyAdmin for the database."
+                "A web application built with React, Node.js, Bootstrap and
+                phpMyAdmin."
               </p>
             </div>
           </div>
@@ -77,7 +77,7 @@ const ShowcaseSection = () => {
               </div>
               <h2>Tourvisto</h2>
               <p className='text-white-50 md:text-xl'>
-                "A web application built with React, Appwrite, tailwind, and
+                "A web application built with React, Appwrite, tailwind and
                 Vite."
               </p>
             </div>
