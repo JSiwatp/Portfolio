@@ -49,9 +49,10 @@ const Hero = () => {
             </div>
 
             <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
-              I'm looking for a full-time job as Front-end,
+              I'm looking for a full-time job 
+{/*               as Front-end, */}
               <br/>
-              Back-end and Fullstack.
+{/*               Back-end and Fullstack. */}
             </p>
 
             <Button
