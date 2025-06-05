@@ -50,7 +50,7 @@ const Hero = () => {
 
             <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
               I'm looking for a full-time job as Front-end,
-              <br></br>
+              <br/>
               Back-end and Fullstack.
             </p>
 
